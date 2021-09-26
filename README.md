@@ -13,9 +13,9 @@ Collection of useful tools for CTFs.
 ## Web
 
 * nmap
-'''
+```
 prova
-'''
+```
 * gobuster
 * dirb
 
