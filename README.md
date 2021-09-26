@@ -93,7 +93,7 @@ client side : nc <ip_server> <port_server> < <file>
 server side : nc -lvp <port> < <file>
 client side : wget <ip_server>:<port_server>/<file>
 
-!! [NOTE: protocol will continue after transmission of file (maybe because client side does not receive CRLF sequence). So after a few time, just press CTRL+c et voit-là] 
+!! [NOTE: protocol will continue after transmission of file (maybe because client side does not receive CRLF sequence). So after a while, just press CTRL+c et voit-là] 
 ```
 
 ---
