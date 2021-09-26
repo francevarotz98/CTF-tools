@@ -44,7 +44,7 @@ Example usage: wget <url>
 * steghide
 ```
 Example usage: steghide <command> <file>
-  where *command* can be: > info
+  where command can be:   > info
                           > extract 
                           > embed 
 ```
@@ -72,3 +72,7 @@ Example usage: steghide <command> <file>
 
 
 
+# Contributors
+
+- Francesco Varotto - [@frarotto](https://github.com/francevarotz98/)
+-  toadd
