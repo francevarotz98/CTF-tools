@@ -7,3 +7,15 @@ Collection of useful tools for CTFs.
   - [Crypto](#crypto)
   - [Steganography](#stego)
   - [to update]
+
+---
+
+## Web
+
+* nmap
+  prova
+* gobuster
+* dirb
+
+
+
