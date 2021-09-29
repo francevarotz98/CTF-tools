@@ -5,7 +5,7 @@ Collection of useful tools for CTFs.
 ## Categories
   - [Web](#web)
   - [Crypto](#crypto)
-  - [Steganography](#stego)
+  - [Steganography](#Steganography)
   - [Binary/Reverse](#binary/reverse)
   - [Other](#other)
   - [Useful](#useful)
@@ -56,6 +56,9 @@ Example usage: steghide <command> <file>
                           > embed 
 ```
 * [Stegosolve](http://www.caesum.com/handbook/Stegsolve.jar)
+* exif
+* exiftool
+* binwalk
 
 ---
 
