@@ -6,7 +6,7 @@ Collection of useful tools for CTFs.
   - [Web](#web)
   - [Crypto](#crypto)
   - [Steganography](#stego)
-  - [Binary/Reverse](#binary)
+  - [Binary/Reverse](#binary/reverse)
   - [Other](#other)
   - [Useful](#useful)
   - [to update]
