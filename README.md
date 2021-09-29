@@ -42,7 +42,7 @@ Example usage: wget <url>
 
 ## Crypto
 
-* toadd
+* [CyberChef](https://gchq.github.io/CyberChef/)
 
 ---
 
@@ -104,4 +104,4 @@ client side : wget <ip_server>:<port_server>/<file>
 # Contributors
 
 - Francesco Varotto - [@frarotto](https://github.com/francevarotz98/)
--  toadd
+- Massimiliano Belluomini - [@massibelluomini](https://github.com/massibelluomini)
