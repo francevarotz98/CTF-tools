@@ -55,6 +55,7 @@ Example usage: steghide <command> <file>
                           > extract 
                           > embed 
 ```
+* [Stegosolve](http://www.caesum.com/handbook/Stegsolve.jar)
 
 ---
 
@@ -75,7 +76,6 @@ Example usage: steghide <command> <file>
 * nc -- TCP/IP swiss army knife
 * linpeas.sh -- for Linux Privesc
 * sudo -l -- to get which files I can run with sudo
-* [Stegosolve](http://www.caesum.com/handbook/Stegsolve.jar)
 
 
 ---
