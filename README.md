@@ -134,6 +134,7 @@ Example:    openssl s_client -connect <ip_address>:<port>
 Example usage: printf "<data>" |cat - <file> > <file_out>
     where data is something like "\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x00"
 ```
+* [PEM Parser](https://8gwifi.org/PemParserFunctions.jsp)
 
 ---
 
