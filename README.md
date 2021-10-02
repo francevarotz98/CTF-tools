@@ -37,7 +37,12 @@ Example usage: nikto -h <ip_target>
 ```
 Example usage: wget <url>
 ```
-
+* golismero
+```
+Example usage:
+golismero scan -i /root/port80.xml -o sub1-port80.html
+```
+* Burpsuite
 ---
 
 ## Crypto
@@ -145,3 +150,4 @@ Example usage: printf "<data>" |cat - <file> > <file_out>
 
 - Francesco Varotto - [@frarotto](https://github.com/francevarotz98/)
 - Massimiliano Belluomini - [@massibelluomini](https://github.com/massibelluomini)
+- Filippo Giambartolomei - [@filippogiamba](https://github.com/Filippo-arch)
