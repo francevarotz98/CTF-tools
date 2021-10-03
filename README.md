@@ -134,12 +134,13 @@ Example usage: searchsploit OpenSSH 7.2p2
 Example:    openssl s_client -connect <ip_address>:<port>
     If all it is ok, paste the password and it’s done.
 ```
-* append to a file data: 
+* append data to a file: 
 ```
 Example usage: printf "<data>" |cat - <file> > <file_out>
     where data is something like "\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x00"
 ```
 * [PEM Parser](https://8gwifi.org/PemParserFunctions.jsp)
+* [Decompile Jar,pyc,exe,class,...](https://www.decompiler.com/)
 
 ---
 
