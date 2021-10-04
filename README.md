@@ -79,6 +79,7 @@ Example usage: steghide <command> <file>
 * objdump
 * apktool
 * Jadx -- Java decompiler 
+* [Decompile Jar,pyc,exe,class,...](https://www.decompiler.com/)
 
 ---
 
@@ -140,7 +141,7 @@ Example usage: printf "<data>" |cat - <file> > <file_out>
     where data is something like "\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\x00"
 ```
 * [PEM Parser](https://8gwifi.org/PemParserFunctions.jsp)
-* [Decompile Jar,pyc,exe,class,...](https://www.decompiler.com/)
+
 
 ---
 
