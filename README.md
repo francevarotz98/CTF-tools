@@ -48,6 +48,7 @@ golismero scan -i /root/port80.xml -o sub1-port80.html
 ## Crypto
 
 * [CyberChef](https://gchq.github.io/CyberChef/)
+* [RSACtfTool](https://github.com/Ganapati/RsaCtfTool)
 
 ---
 
@@ -80,6 +81,7 @@ Example usage: steghide <command> <file>
 * apktool
 * Jadx -- Java decompiler 
 * [Decompile Jar,pyc,exe,class,...](https://www.decompiler.com/)
+* [Pwntools](https://github.com/Gallopsled/pwntools/)
 
 ---
 
