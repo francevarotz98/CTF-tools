@@ -65,6 +65,7 @@ Example usage: steghide <command> <file>
 * exif
 * exiftool
 * binwalk
+* aperisolve.fr
 
 ---
 
