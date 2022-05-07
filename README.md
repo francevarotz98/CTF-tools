@@ -107,13 +107,18 @@ Example usage: searchsploit OpenSSH 7.2p2
 
 * sending a file using nc:
 ```
-    client side : nc -lvp <port> > <file>
     server side : nc <ip_server> <port_server> < <file>
+    client side : nc -lvp <port> > <file>
+```
+* sending directory using nc:
+```
+    server side : nc -lvp <port> | tar xf -
+    client side : tar cf - . | nc <ip_server> <port_server>
 ```
 * sending a file using nc + wget:
 ```
-    client side : nc -lvp <port> < <file>
     server side : wget <ip_server>:<port_server>/<file>
+    client side : nc -lvp <port> < <file>
 
 !! [NOTE: protocol will continue after transmission of file (maybe because client side does not receive CRLF sequence). So after a while, just press CTRL+c et voit-là] 
 ```
